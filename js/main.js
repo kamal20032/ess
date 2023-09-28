@@ -159,14 +159,5 @@ jQuery(document).ready(function( $ ) {
     slideSpeed: 200,
     responsive: { 0: { items: 2 }, 0: { items: 4 }, 0: { items: 6 } }
   });
-  
-
-  // Testimonials carousel (uses the Owl Carousel library)
-  $(".testimonials-carousel").owlCarousel({
-    autoplay: true,
-    dots: true,
-    loop: true,
-    items: 1
-  });
 
 });
