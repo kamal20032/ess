@@ -156,10 +156,10 @@ jQuery(document).ready(function( $ ) {
     dots: true,
     loop: true,
     autoplayTimeout: 1500,
-  slideSpeed: 200,
-    responsive: { 0: { items: 2 }, 768: { items: 4 }, 900: { items: 6 }
-    }
+    slideSpeed: 200,
+    responsive: { 0: { items: 2 }, 0: { items: 4 }, 0: { items: 6 } }
   });
+  
 
   // Testimonials carousel (uses the Owl Carousel library)
   $(".testimonials-carousel").owlCarousel({
