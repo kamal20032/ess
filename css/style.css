@@ -80,7 +80,7 @@ h1, h2, h3, h4, h5, h6 {
 
 #header.header-scrolled {
   background: rgba(0, 0, 0, 0.9);
-  padding: 24px 0;
+  padding: 20px 0;
   height: 72px;
   transition: all 0.5s;
 }
@@ -123,6 +123,9 @@ h1, h2, h3, h4, h5, h6 {
 @media (max-width: 576px) {
   #header #logo h1 {
     font-size: 12px;
+  }
+  #header.header-scrolled {
+    padding: 24px 0;
   }
 }
 
@@ -560,6 +563,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 --------------------------------*/
 #featured-services {
   background: #000;
+  text-align: center;
 }
 
 #featured-services .box {
