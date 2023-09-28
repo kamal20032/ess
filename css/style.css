@@ -67,7 +67,7 @@ h1, h2, h3, h4, h5, h6 {
 # Header
 --------------------------------------------------------------*/
 #header {
-  align-content: center;
+  justify-content: center;
   padding: 25px 0;
   height: 92px;
   position: fixed;
@@ -79,6 +79,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #header.header-scrolled {
+  justify-content: center;
   background: rgba(0, 0, 0, 0.9);
   padding: 20px 0;
   height: 72px;
@@ -402,6 +403,9 @@ h1, h2, h3, h4, h5, h6 {
   transition: all 0.4s;
   outline: none;
   cursor: pointer;
+}
+#header #logo h1 ,#mobile-nav-toggle{
+  align-self: center;
 }
 
 #mobile-nav-toggle i {
