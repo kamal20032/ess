@@ -15,6 +15,16 @@ jQuery(document).ready(function( $ ) {
 
   // Initiate the wowjs animation library
   new WOW().init();
+  //scroll class
+  window.addEventListener('scroll', function() {
+    const navbar = document.getElementById('myNavbar');
+    if (window.scrollY > 0) {
+      navbar.classList.add('scrolled');
+    } else {
+      navbar.classList.remove('scrolled');
+    }
+  });
+  
 
   // Initiate superfish on nav menu
   $('.nav-menu').superfish({

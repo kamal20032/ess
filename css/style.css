@@ -121,11 +121,14 @@ body {
 }
 
 .navbar {
-  background: rgba(0, 0, 0, 0.7);
+  background: rgba(0, 0, 0, 0.1);
   height: 78px;
   padding: 0 25px !important;
 }
-
+.navbar.scrolled {
+  height: 70px;
+  background: rgba(0, 0, 0, 0.7);
+}
 
 .nav-link {
   color: white !important;
@@ -374,9 +377,13 @@ body {
 
 /* Featured Services Section
 --------------------------------*/
-.fa{
-  margin-top: 5px;
-  font-size: 54px;
+.faicon{
+  margin: 9px auto 0;
+  font-size: 46px;
+}
+.fa-user-check{
+  margin:13px auto 0 ;
+  font-size: 38px;
 }
 #featured-services {
   background: #000;
