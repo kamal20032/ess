@@ -156,7 +156,7 @@ body {
       height: 30px;
   }
   .navbar-brand{
-      font-size: 12px !important;
+      font-size: 13px !important;
   }
   .navbar-toggler-icon{
       height: 25px !important;
@@ -381,8 +381,19 @@ body {
   font-size: 46px;
 }
 .fa-user-check{
-  margin:13px auto 0 ;
+  margin-top:13px;
   font-size: 38px;
+}
+@media (max-width:576px) {
+  .faicon{
+    margin: 16px;
+    font-size: 32px;
+
+  }
+  .fa-user-check{
+    margin-top: 18px;
+    font-size: 28px;
+  }
 }
 #featured-services {
   background: #000;
