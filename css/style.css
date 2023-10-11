@@ -808,22 +808,29 @@ body {
 }
 /* Clients Section
 --------------------------------*/
-#clients {
+@keyframes slide {
+  form{
+    transform: translateX(0);
+  }
+  to{
+    transform: translateX(-100%);
+  }
+  
+}
+.logos{
+  overflow: hidden ;
+  background-color: white;
   padding: 60px 0;
+  white-space: nowrap;
 }
-
-#clients img {
-  max-width: 100%;
-  opacity: 0.5;
-  transition: 0.3s;
-  padding: 15px 0;
+.logos-slide{
+  display: inline-block;
+  animation: 45s slide infinite;
 }
-
-#clients img:hover {
-  opacity: 1;
+.logos-slide img{
+  height: 50px;
+  margin: 0 30px;
 }
-
-
 
 /* Testimonials Section
 --------------------------------*/
