@@ -825,7 +825,7 @@ body {
 }
 .logos-slide{
   display: inline-block;
-  animation: 45s slide infinite;
+  animation: 45s slide linear infinite ;
 }
 .logos-slide img{
   height: 50px;
